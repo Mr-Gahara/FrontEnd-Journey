@@ -6,7 +6,9 @@
     <title>Document</title>
     
     <link rel="stylesheet" href="style/general.css">
-    
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/gallery.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -17,18 +19,70 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="img/Butterfly-logo.svg" alt="">
-            <h4>Live in Fantasy</h4>
-        </div>
         <nav>
+            <div class="logo">
+                <img src="img/Butterfly-logo.svg" alt="">
+                <h4>Live in Fantasy</h4>
+            </div>
+
             <ul>
-                <li><a href=""></a>HOME</li>
-                <li><a href=""></a>GALLERY</li>
-                <li><a href=""></a>ABOUT</li>
-                <li><a href=""></a>CONTACT</li>
-            </ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>            
         </nav>
     </header>
+
+    <main>
+        <section class="home-section">
+            <div class="banner">
+                <img src="img/img1.jpg" alt="">
+
+                <aside class="banner-profile">
+                    <div class="text">
+                        <h3>About Me</h3>
+                        <h1>Mr. Zarak</h1>
+                        <p>
+                            Concept artist / illustrator / character designer <br> <br>
+                            zarak/narak is specialized in concept art with 2 different artstyles. <br> <br>
+                            Im actively in designing various character <br> design, including fanart and original <br> character. My aim is to create various paint in <br> new different artstyles.
+                        </p>
+
+                        <button>Reach me Out!</button>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section class="Gallery-section">
+            <div class="gallery-title">
+                <h1>Gallery</h1>
+                <h5>all the artwork including personal and fanart will frequently updated</h5>
+            </div>
+
+            <div class="images">
+                <img src="img/banner.png" alt="">
+                <img src="img/img1.jpg" alt="">
+                <img src="img/img3.png" alt="">
+            </div>
+
+            <div class="images-column">
+                <div class="col-1">
+                    <img src="img/img4.png" alt="">
+                    <img src="img/img6.jpg" alt="">
+                </div>
+
+                <div class="col-2">
+                    <img src="img/img5.jpg" alt="">
+                    <img src="img/img7.jpg" alt="">
+                    <img src="img/img8.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
