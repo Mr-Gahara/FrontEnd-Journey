@@ -4,12 +4,21 @@
     }
 
     .banner-profile {
-        position: relative;
+        margin-top: 50px;
+        margin-left: 0;
         width: 100%;
+        padding: 0;
+        align-items: center;
     }
     
     .text {
-        padding: 4% 5%;
+        margin: 0;
+        width: 40%;
+    }
+
+    .banner-image img {
+        height: 35vh;
+        margin-right: 50px;
     }
     
 }
@@ -18,6 +27,17 @@
 
     header nav {
         flex-direction: column;
+    }
+
+    .banner-image img {
+        display: none;
+    }
+
+    .banner-profile {
+        margin-top: 50px;
+        margin-left: 0;
+        width: 100%;
+        padding: 0;
     }
 
     header nav ul {
@@ -38,6 +58,8 @@
     }
     
     .text {
+        margin: 0;
+        width: 100%;
         padding: 0 5%;
     }
     

@@ -68,7 +68,7 @@ footer {
 
 footer h4 {
     text-align: center;
-    padding-top: 2%;
+    padding: 1% 0;
     color: white;
     font-weight: 500;
 }
@@ -81,6 +81,5 @@ footer .terms-privacy {
 footer .terms-privacy a {
     color: white;
     text-decoration: none;
-    padding: 1%;
-    padding-bottom: 2%;
+    padding: 0.5%;
 }

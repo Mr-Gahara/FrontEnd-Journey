@@ -1,20 +1,23 @@
 .about {
-    margin-top: 100px;
-    padding: 0 7%;
+    padding: 100px 7%;
 }
 
 .about h1 {
     text-align: center;
     font-size: 32px;
     font-weight: 600;
-    margin-bottom: 100px;
+    margin: 50px 0;
 }
 
 .about article {
     display: flex;
     justify-content: center;
+
+}
+
+.about article p {
+    margin: 50px 0;
     font-size: 20px;
-    margin-bottom: 100px;
 }
 
 .about article span {
