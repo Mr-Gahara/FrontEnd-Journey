@@ -5,10 +5,6 @@
     color: black;
 }
 
-body {
-    margin-bottom: 2000px;
-}
-
 header {
     position: fixed;
     background-color: rgba(255, 255, 255, 1);
@@ -35,7 +31,6 @@ nav .logo h4 {
     font-family: 'Montserrat';
     font-size: 21px;
     letter-spacing: 1px;
-
 }
 
 nav {
@@ -59,4 +54,33 @@ nav ul li a {
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+footer {
+    background-color: #B88E2F;
+    color: white;
+}
+
+footer h4 {
+    text-align: center;
+    padding-top: 2%;
+    color: white;
+    font-weight: 500;
+}
+
+footer .terms-privacy {
+    display: flex;
+    justify-content: center;
+}
+
+footer .terms-privacy a {
+    color: white;
+    text-decoration: none;
+    padding: 1%;
+    padding-bottom: 2%;
 }
