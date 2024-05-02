@@ -1,5 +1,6 @@
 .about {
     padding: 100px 7%;
+    background-color: #2D222F;
 }
 
 .about h1 {
@@ -7,6 +8,7 @@
     font-size: 32px;
     font-weight: 600;
     margin: 50px 0;
+    color: #FADCD5;
 }
 
 .about article {
@@ -21,5 +23,5 @@
 }
 
 .about article span {
-    color: #B00000;
+    color: #d83e76;
 }

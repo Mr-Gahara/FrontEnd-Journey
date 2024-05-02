@@ -16,6 +16,14 @@
         width: 40%;
     }
 
+    .home-section {
+        padding-bottom: 6%;
+    }
+
+    .text p {
+        color: #FADCD5;
+    }
+
     .banner-image img {
         height: 35vh;
         margin-right: 50px;
@@ -73,6 +81,7 @@
     
     .text p {
         font-size: 17px;
+        color: #FADCD5;
     }
     
     .text button {

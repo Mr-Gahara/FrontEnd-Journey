@@ -4,11 +4,10 @@
     align-items: center;
     text-align: center;
     margin: 20px;
-    background-color: #F9F1E7;
 }
 
 .gallery-section {
-    background-color: #F9F1E7;
+    background-color: #4B2138;
 }
 
 .images {
@@ -28,6 +27,7 @@
     font-size: 32px;
     font-weight: 600;
     margin-top: 80px;
+    color: #FADCD5;
 }
 
 .gallery-title h5 {
@@ -51,10 +51,7 @@
     flex-direction: column;
 }
 
-.images-column .col-2 {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .images-column .col-1 img {
     margin-right: 3%;
